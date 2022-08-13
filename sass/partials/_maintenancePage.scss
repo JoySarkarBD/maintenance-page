@@ -1,0 +1,82 @@
+body {
+  background: url("../../assets/images/background/newsletter_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  .maintenance_card {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    max-width: 500px;
+   h3,p{
+    color: $textColor;
+    }
+    hr{
+        width: 90%;
+        margin: auto;
+    }
+    .spinner {
+        color: $textColor;
+      animation: spin 1s linear infinite;
+    }
+    .btn-outline-facebook {
+        i{
+            font-size: 25px;
+        }
+      border: 1px solid #4c9ece !important;
+      color: #4c9ece;
+      margin: 10px;
+    }
+    .btn-outline-facebook:hover {
+      border: 1px solid #2e477e !important;
+      color: #2e477e;
+    }
+    .btn-outline-twitter {
+        i{
+            font-size: 25px;
+        }
+      border: 1px solid #55acee !important;
+      color: #55acee;
+      margin: 10px;
+    }
+    .btn-outline-twitter:hover {
+      border: 1px solid #377aad !important;
+      color: #377aad;
+    }
+    .btn-outline-linkedin {
+        i{
+            font-size: 25px;
+        }
+      border: 1px solid #007bb6 !important;
+      color: #007bb6;
+      margin: 10px;
+    }
+    .btn-outline-linkedin:hover {
+      border: 1px solid #133646 !important;
+      color: #133646;
+    }
+    .btn-outline-whatsApp {
+        i{
+            font-size: 25px;
+        }
+      border: 1px solid #44944c !important;
+      color: #44944c;
+      margin: 10px;
+    }
+    .btn-outline-whatsApp:hover {
+      border: 1px solid #295a2e !important;
+      color: #295a2e;
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
